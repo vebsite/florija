@@ -19,10 +19,7 @@
 	/* Za animaciju */
 	animation: fadeIn 2s ease-in-out;
 }
-
-.container_text {
-	color: white;
-}	
+	
 
 body{
 	background-color: orange;
@@ -60,9 +57,10 @@ body{
 
 .container_text {
 	background-color: black;
+	color: white;
 	padding: 25px;
 	border-radius: 15px;
 	position: absolute;
 	top: 11vh;
-	left: 45%;
+	left: 27%;
 }
