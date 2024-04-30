@@ -20,21 +20,49 @@
 	animation: fadeIn 2s ease-in-out;
 }
 
-.h2_text {
+.container_text {
 	color: white;
 }	
 
 body{
-	background-color: black;
+	background-color: orange;
 }
 
 .insta_reel {
 	/* Manually set aspect ratio to match Instagram reel (480px width and 854px height) */
 	position: absolute;
-	top: 20vh; /* Adjust this value to position it where you want */
-	left: 50%; /* Adjust this value to position it where you want */
+	top: 40vh; /* Adjust this value to position it where you want */
+	left: 15%;
 	transform: translateX(-50%);
 	width: 480px;
 	height: 854px;
 	object-fit: cover; /* Preserve aspect ratio */
+	padding: auto;
+	margin: auto;
+}
+
+.insta_pic {
+	/* Manually set aspect ratio to match Instagram reel (480px width and 854px height) */
+	position: absolute;
+	top: 40vh; /* Adjust this value to position it where you want */
+	left: 30%;
+	transform: translateX(-10%);
+	width: 480px;
+	height: 854px;
+	object-fit: cover; /* Preserve aspect ratio */
+	padding: auto;
+	margin: auto;
+}
+
+.container {
+	position: relative;
+}
+
+.container_text {
+	background-color: black;
+	padding: 25px;
+	border-radius: 15px;
+	position: absolute;
+	top: 11vh;
+	left: 45%;
 }
