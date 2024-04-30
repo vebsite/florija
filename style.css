@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.naslov {
+	/* text style */
+	font-size: 30px;
+	color: white;
+	
+	/* za centriranje */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* Za animaciju */
+	animation: fadeIn 2s ease-in-out;
+}
+
+.h2_text {
+	color: white;
+}	
+
+body{
+	background-color: black;
+}
+
+.insta_reel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
