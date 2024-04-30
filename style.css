@@ -29,10 +29,12 @@ body{
 }
 
 .insta_reel {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
+	/* Manually set aspect ratio to match Instagram reel (480px width and 854px height) */
+	position: absolute;
+	top: 20vh; /* Adjust this value to position it where you want */
+	left: 50%; /* Adjust this value to position it where you want */
+	transform: translateX(-50%);
+	width: 480px;
+	height: 854px;
+	object-fit: cover; /* Preserve aspect ratio */
 }
